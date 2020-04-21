@@ -1,0 +1,75 @@
+rsync.sh
+nohup.out
+*.log
+config.ini
+.env
+.idea/
+backend/logs/*
+backend/media/dns/
+backend/media/job/
+backend/media/dns/*.zone
+backend/apps/cicd/vm_deploy/config/scripts/*_md5.sh
+backend/apps/cicd/vm_deploy/config/scripts/*_micro.sh
+backend/apps/cicd/vm_deploy/config/scripts/*_java.sh
+backend/apps/cicd/vm_deploy/config/playbook/*.retry
+
+backend/logs/celery/*
+backend/logs/celery/celery_task_*.pid
+backend/logs/celery/celery_task_*.log
+backend/logs/celery/celery_beat*.pid
+backend/logs/celery/celery_beat*.log
+backend/peppa-*
+backend/beetle-*
+backend/metis-*
+
+
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# Basics
+*.py[cod]
+__pycache__
+
+# Database
+db.sqlite3
+
+# Vim
+*~
+*.swp
+*.swo
+
+# Compass
+.sass-cache
+
+# virtual environments
+env
+venv
+
+# User-uploaded media
+staticfiles/
+.cache/
+
+!.gitignore
+!.gitkeepzhangsan
