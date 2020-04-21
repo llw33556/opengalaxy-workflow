@@ -4,7 +4,7 @@ cachetools==4.0.0
 coreapi==2.3.3
 coreschema==0.0.4
 cryptography==2.6.1
-Django==2.1.4
+Django==2.2.10
 django-appconf==1.0.2
 django-celery==3.2.2
 django-cors-headers==2.4.0
