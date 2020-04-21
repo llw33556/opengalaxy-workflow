@@ -20,12 +20,14 @@ djangorestframework==3.9.0
 Clone the repository:
 
 ```zsh
-➜ git clone git@gitlab.opengalaxy.com:devops/django-vue-demo.git
+➜ git clone https://github.com/DevOpsUnionTop/opengalaxy-workflow.git
+➜ mkdir -p /opt && mv opengalaxy-workflow open-galaxy
 ```
 
 Create and activate virtualenv:
 
 ```zsh
+➜  cd /opt/open-galaxy/
 ➜  virtualenv -p python3 env
 ➜  source env/bin/activate
 ```
